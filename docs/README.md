@@ -29,90 +29,73 @@ features:
 
 ## 个人介绍
 
-- name: 李夏 (LisaSummer)
+- name: 李夏
 - age: 20
-- school: [澳门大学](https://www.um.edu.mo/)
 
 ## 教育背景
 
-**专业课:**
+**课程:**
 
 1. C#面向对象
 2. 计算机基础
 3. 高等数学
 4. 三维动画建模
-5. HTML5网页设计与制作
+5. Web网页设计与制作
 6. 移动UI界面构成与图标设计
-7.
+7. Linux服务器搭建与管理
+8. 数据解构与算法(Java版)
+9. Python程序设计教程(第二版)
+10. Java EE企业级应用开发教程
+11. 深度学习入门
+12. Oracle数据库
 
 ## 前端部分
 
-1. **开发框架**: 主要使用[Vue-TS](https://cn.vitejs.dev/guide/#browser-support)进行开发
+### HTMl
 
-2. **Javascript**: 主要使用[Typescript](https://www.typescriptlang.org/),`ES2015+`相结合进行开发
+1. 熟练使用各种HTML标签进行语义化结构的开发
 
-3. **工具部分**: 使用`Vue`周边相关的工具([Vite](https://cn.vitejs.dev/),[Vue-Router](https://router.vuejs.org/)
-   ,[Vue-i18n](https://kazupon.github.io/vue-i18n/zh/introduction.html),[Pinia](https://pinia.vuejs.org/))进行开发.
+### CSS
 
-> 不使用Vuex的原因: 使用`Typescript`对`Vuex`进行类型限制比较麻烦,`Vuex`的`Mutation`显得有点多余,`Pinia`更契合`Javascript`的开发方式
+1. 熟练使用`flex`,`grid`,`float`,`position`等原生进行布局
+2. 熟练使用`less`,`sass/scss`,`stylus`预处理器进行快速原型开发
 
-4. **脚手架**: 基本只用[Vite,](https://cn.vitejs.dev/)少量使用[Vue-CLI](http://cli.vuejs.org/)
-   只有简单使用过[wabpack](https://webpack.js.org/)
+### JavaScript
 
-> 不使用`wabpack`原因: 笨重,沉余, 性能没有`Vite`快
+1. 熟练使用ECMAScript来进行开发, 对`ESMAScript2015`(ES6)版本以及之后的版本的语法都有接触
+2. 打包工具
+    1. 会简单使用[Webpack]()进行配置,开发优化
+    2. 使用[Vite]()进行配置,页面优化
+3. 框架
+    1. 熟练使用[Vue.js](https://cn.vuejs.org/) 以及`Vue`周边技术栈进行开发Vue及相关技术介绍:
+       版本的[setup语法糖](https://v3.cn.vuejs.org/api/sfc-script-setup.html)进行开发, 较少使用`Vue2.x`版本
+        1. Vite@next: 使用稳定版, 会配置与其他工具进行开发,打包
+        2. Vue-Router@next: 单页面路由配置
+        3. Pinia@next: 存储全局变量
+        4. Vue-i18n@next: 国际化,本地化翻译
+        5. Typescript, 加强类型检测,更安全的开发
+    2. 熟练使用[React](https://react.docschina.org/) 进行开发
+        1. 使用 [Ant Design](https://ant.design/) 与React结合进行开发
+    3. 测试
+        1. `Mocha`: 测试框架
+        2. `Chai`: 断言库
+        3. `ts-mocha`: 支持ts文件的mocha测试
+        4. `sinon`: 单元测试
+        5. `nyc`: 覆盖率测试
 
-5. **CSS**: 主要使用`SASS`的`SCSS`模式进行开发, 也使用`Stylus`,简单使用过`Tailwind CSS`
+### 设计模式:
 
-6. **Test**: 主要使用[Mocha](https://mochajs.org/)作为测试框架, [chai](https://www.chaijs.com/)作为`Mocha`测试框架`断言`
-   的补充, [sinon](https://sinonjs.org/)作为单元测试, [nyc](https://github.com/istanbuljs/nyc)作为测试时的覆盖率测试
+1. 观察者模式
+    1. 对观察者/发布者模式有了解, 能够使用[Rxjs](https://rxjs.dev/) 进行对`同步`/`异步`编程进行页面的性能优化
 
-7. **MockData**: 可以搭建`Node`服务器进行网络请求数据, 也可以使用前端的工具库([mockjs](https://github.com/nuysoft/Mock/wiki/Getting-Started)
-   ,[fakejs](https://github.com/faker-js/faker),[json-server](https://github.com/typicode/json-server))来进行模拟生成数据,
-   使用[Apifox](https://www.apifox.cn/)与[Apipost](https://www.apipost.cn/)工具进行接口测试
-8. **开发工具部分**: 使用[Webstorm](https://www.jetbrains.com/zh-cn/webstorm/)进行日常开发,
-   使用[DataGrip](https://www.jetbrains.com/zh-cn/datagrip/)进行数据库操作, 使用[IDEA](https://www.jetbrains.com/zh-cn/idea/)
-   来开发`Spring`,少量使用[VSCode](https://code.visualstudio.com/)与[HBuilder X](https://dcloud.io/hbuilderx.html)来开发
+### 编程思想:
 
-9. **PackageManage**: 主要使用基于[npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/)
-   作为基础的[pnpm](https://pnpm.io/)来作为[npm](https://www.npmjs.com/)包模块的管理, 也可以使用[yarn](https://yarnpkg.com/),[npm]()
-   ,[ni](https://www.npmjs.com/package/@antfu/ni)
+1. 使用`函数式编程`的编程范式进行开发
 
-10. **VersionManage**: 使用`Git`对项目进行管理,使用`nvm`工具对`node`版本进行管理
+### 其他
 
-### Vue生态
-
-1. Vue3.x : 日常主要使用[Vue3.x](https://v3.cn.vuejs.org/)版本的[setup语法糖](https://v3.cn.vuejs.org/api/sfc-script-setup.html)
-   进行开发, 很少使用`Vue2.x`版本
-2. Vite@next: 使用稳定版, 会配置与其他工具进行开发,打包
-3. Vue-Router@next: 单页面路由配置
-4. Pinia@next: 存储全局变量
-5. Vue-i18n@next:  国际化,本地化翻译
-6. Typescript, 加强类型检测,更安全的开发
-
-### CSS框架/预处理器
-
-1. `Sass/Scss`: 日常`Vue`开发时使用
-2. `Stylus`: 快速开发`CSS`时用到
-3. `Tailwind CSS:`  CSS框架, 使用`Weboack`作为工具开发时使用过
-
-### 可视化平台
-
-1. echarts: 图表
-
-### UI
-
-1. element-plus: 页面样式
-
-### 测试/质量/性能
-
-1. `Mocha`: 测试框架
-2. `Chai`:  断言库
-3. `ts-mocha`:  支持ts文件的mocha测试
-4. `sinon`:  单元测试
-5. `nyc`:   覆盖率测试
-7. `@types/node` : `node`的语法/类型检查
-8. `@types/mocha`: `mocha`测试框架的语法/类型检查
-9. `@types/chai`: `chai`断言库的语法/类型检查
+1. 使用[echarts]()进行开发
+2. 对[Bootstrap](https://getbootstrap.com/), [Swiper](https://swiperjs.com/) 有基本的了解,可根据需求来进行学习使用
 
 ## 后端部分(简单接触)
 
@@ -122,7 +105,7 @@ features:
 4. `MySQL` / `OracleDatabase` / `Mybaits`:  简单的增删改查
 5. `Linux` :  搭建`CentOS` 环境, 部署本地前端项目到线上服务器上,通过`nginx`部署到服务器并展示项目
 
-## Dosktop
+## Desktop
 
 1. `Tauri`:  将前端项目整合到Windows PC 桌面端
 
@@ -131,12 +114,12 @@ features:
 1. `stylelint`:  样式规范, 使用`stylelint-config-standard`规范
 2. `eslint`: `Javascript`的代码风格
 
-## 加分项
+## 其他项
 
 1. `Docker`:  搭建本地的CentOS模拟线上服务器, 本地`Shell`连接进行开发
 2. `Shell`: 熟悉常见的`Shell`操作
 
 ---
 
-![备案号](./.vuepress/public/备案图标.png)桂ICP2022004535号
+![备案号](./public/备案图标.png) 桂ICP2022004535号
 ---
